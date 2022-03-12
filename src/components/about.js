@@ -5,12 +5,12 @@ import data from "../yourdata"
 const About = () => {
   return (
     <div className="secion" id="about">
-      <div className="container">
+      <div className="container about-container">
+        <Fade bottom cascade>
+          <span className='head'>ABOUT ME</span>
+        </Fade>
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
-              <span className='head'>ABOUT ME</span>
-            </Fade>
             <h3 className="light">
               Hi, I'm Matteo Melotti, a Full Stack Developer from Verona&nbsp;
               <span role="img" aria-label="Emoji">

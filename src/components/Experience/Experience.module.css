@@ -1,6 +1,6 @@
 .box{
     margin:15px;
-    margin-top:50px;
+    /* margin-top:50px; */
 }
 .head{
     display: inline-block;
@@ -14,10 +14,10 @@
 
 
 .container{
-    width: 100%;
+    /* width: 100%; */
     margin-left:30px;
     display: block;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius:3px;
     padding:0 42px 0 10px;
     margin-left:30px
