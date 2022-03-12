@@ -9,9 +9,25 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <span className='head'>ABOUT ME</span>
             </Fade>
-            <p>
+            <h3 className="light">
+              Hi, I'm Matteo Melotti, a Full Stack Developer from Verona&nbsp;
+              <span role="img" aria-label="Emoji">
+                🇮🇹
+              </span>&nbsp;
+              currently working at <a href="https://www.devinterface.com"><b>DevInterface</b></a>.
+            </h3>
+            <h3 className="light">
+              I am much interested in technology and coding and I try to stay updated with the latest languages and libraries.
+            </h3>
+            <h3 className="light">
+              When I'm not working, I enjoy trailing with my MTB or relaxing with a walk in the woods.
+            </h3>
+            <h3 className="light">
+              You can find me on <a href="https://www.linkedin.com/in/matteo-melotti"><b>Linkedin</b></a> and <a href="https://github.com/matteomelotti"><b>GitHub</b></a>.
+            </h3>
+            {/* <p>
               {data.aboutParaOne}
               <br></br>
               <br></br>
@@ -25,7 +41,7 @@ const About = () => {
               <br></br>
               <br></br>
               <div dangerouslySetInnerHTML={{ __html: data.aboutParaFive }}></div>
-            </p>
+            </p> */}
           </div>
           <div className="image-wrapper">
             <img className="about-me-img" src={data.aboutImage} alt="about"></img>
@@ -37,3 +53,4 @@ const About = () => {
 }
 
 export default About
+

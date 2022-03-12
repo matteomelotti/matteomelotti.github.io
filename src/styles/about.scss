@@ -1,5 +1,5 @@
 .about-section {
-  width: 80vw;
+  width: 75vw;
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
@@ -38,6 +38,11 @@
       }
     }
   }
+  h3 {
+    &.light {
+      font-weight: 100;
+    }
+  }
   .image-wrapper {
     width: 50%;
     display: flex;
@@ -53,5 +58,24 @@
     @include media(">=tablet", "<desktop") {
       width: 100%;
     }
+    .about-me-img {
+      border-radius: 15%;
+      width: 40%;
+    }
   }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head {
+  display: inline-block;
+  padding: 0px 12px 0 0;
+  color: rgb(85, 85, 85);
+  margin-bottom: 20px;
+  margin-left: 30px 30px 30px 0;
+  letter-spacing: 5px;
+  font-size: 11px;
 }

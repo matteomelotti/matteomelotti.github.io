@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="section">
       <div className="container">
         <div className="skills-container">
-          <h1>Main Skills</h1>
+          <span className='head'>MAIN SKILLS</span>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
               <div className="skill" key={index}>
