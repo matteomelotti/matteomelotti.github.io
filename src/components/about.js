@@ -16,7 +16,7 @@ const About = () => {
               <span role="img" aria-label="Emoji">
                 🇮🇹
               </span>&nbsp;
-              currently working at <a href="https://www.devinterface.com" target='_blank'><b>DevInterface</b></a>.
+              currently working at <a href="https://www.devinterface.com" rel="noopener noreferrer" target='_blank'><b>DevInterface</b></a>.
             </h3>
             <h3 className="light">
               I am much interested in technology and coding and I try to stay updated with the latest languages and libraries.
@@ -25,7 +25,7 @@ const About = () => {
               When I'm not working, I enjoy trailing with my bike or work out at gym.
             </h3>
             <h3 className="light">
-              You can find me on <a href="https://www.linkedin.com/in/matteo-melotti" target='_blank'><b>Linkedin</b></a> and <a href="https://github.com/matteomelotti" target='_blank'><b>GitHub</b></a>.
+              You can find me on <a href="https://www.linkedin.com/in/matteo-melotti" rel="noopener noreferrer" target='_blank'><b>Linkedin</b></a> and <a href="https://github.com/matteomelotti" rel="noopener noreferrer" target='_blank'><b>GitHub</b></a>.
             </h3>
             {/* <p>
               {data.aboutParaOne}
