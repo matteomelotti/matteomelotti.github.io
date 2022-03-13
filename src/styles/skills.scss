@@ -12,12 +12,11 @@
 
   .head {
     display: inline-block;
-    padding: 0px 12px;
+    padding: 0;
     color: rgb(85, 85, 85);
     margin-bottom: 20px;
-    margin-left: 30px;
     letter-spacing: 5px;
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .skills-grid {
@@ -35,7 +34,7 @@
     }
 
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
 
     .skill {

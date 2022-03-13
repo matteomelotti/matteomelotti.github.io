@@ -1,5 +1,5 @@
 .box{
-    margin:15px;
+    margin:15px 0;
     /* margin-top:50px; */
 }
 .head{
@@ -7,20 +7,18 @@
     padding:0px 12px;
     color: rgb(85, 85, 85);
     margin-bottom: 20px;
-    margin-left:30px;
     letter-spacing: 5px;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 
 .container{
     /* width: 100%; */
-    margin-left:30px;
     display: block;
     /* margin-top: 30px; */
     border-radius:3px;
-    padding:0 42px 0 10px;
-    margin-left:30px
+    padding:0 42px 0 12px;
+    margin-left:40px
     /* background-color: red; */
 }
 .row:before{
@@ -162,12 +160,17 @@ text-decoration: none;
   
   @media (max-width:992px){
     .box{
-        text-align: center;
+        /* text-align: center; */
+    }
+    .container {
+        padding:0 20px 0 8px;
+        margin-left:0px
     }
 }
 
 @media (max-width:440px){
     .container{
-        padding:0 42px 0 0;
+        padding:0 8px 0 16px;
+        margin-left:0
     }
 }
