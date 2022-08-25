@@ -1,19 +1,20 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
+import htmlIcon from "./images/html.svg"
 import jsIcon from "./images/javascript.svg"
+import reactIcon from "./images/react.svg"
 // import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-import vueIcon from './images/vuejs.svg'
-import postgresqlIcon from './images/postgresql.svg'
-import railsIcon from './images/rails.svg'
-import nodeIcon from './images/node.svg'
 import elasticsearchIcon from './images/elasticsearch.png'
-import timeManagementIcon from './images/time-management.jpeg'
-import teamWorkIcon from './images/teamwork.svg'
-import mysqlIcon from './images/mysql.svg'
 import linkedinIcon from './images/linkedin.svg'
+import mysqlIcon from './images/mysql.svg'
+import nodeIcon from './images/node.svg'
+import postgresqlIcon from './images/postgresql.svg'
+import profilePic from './images/profile-pic.jpeg'
+import railsIcon from './images/rails.svg'
+import teamWorkIcon from './images/teamwork.svg'
+import timeManagementIcon from './images/time-management.jpeg'
+import vueIcon from './images/vuejs.svg'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -128,23 +129,22 @@ export default {
     "Throughout my carrer I needed to improve my soft skills as time management, teamwork and project management, and my hard skills with new programming languages and frameworks as ReactJS, Vue.JS, Node.JS, Nest, Spree e-commerce, Typescript.",
   aboutParaFour: 'I am a curious person and a lover of new technologies. I like working in young and dynamic work groups where I can contribute to development of new ideas. My dream work place is a company that contributes to improve the quality of people ‘s life and planet sustainability. An environment with the possibility of continuous professional growth.',
   aboutParaFive: 'Here you can find my updated <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19zG9PSTj_0ElWVnzn39g7MzMvSxS8Ja_/view">CV</a>.',
-  aboutImage:
-    "https://media-exp1.licdn.com/dms/image/C5603AQH9TopdjD8yDA/profile-displayphoto-shrink_800_800/0/1540588175333?e=1652313600&v=beta&t=M9fJCJn6XTTrrjmCECqRECGMeElVu2ZCKoBIFZJuD1Q",
+  aboutImage: profilePic,
 
   //   End About Section ---------------------
 
   experiences: [
     {
       company: {
-        link: 'https://n26.com',
-        logo: 'https://res.cloudinary.com/carloscuesta/image/upload/v1617353828/about-me/n26.png',
-        name: 'N26'
+        link: '',
+        logo: '',
+        name: ''
       },
       positions: [
         {
           dateFinish: null,
-          dateStart: '04/01/2021',
-          title: 'Senior Web Engineer',
+          dateStart: '',
+          title: '',
           description: ''
         }
       ]
