@@ -1,9 +1,8 @@
-import React from "react"
-import classes from './Experience/Experience.module.css';
-import { MdSchool } from 'react-icons/md';
-import { MdWork } from 'react-icons/md';
+import React from "react";
 import { FaSchool } from 'react-icons/fa';
-import Fade from "react-reveal/Fade"
+import { MdSchool, MdWork } from 'react-icons/md';
+import Fade from "react-reveal/Fade";
+import classes from './Experience/Experience.module.css';
 
 const Work = () => {
   return (
@@ -24,7 +23,7 @@ const Work = () => {
                           </div>
                           <div className={classes.label}>
                             <h2 >Experience  <span>December 2016 - Present</span></h2>
-                            <p>I am currently working as <b>Full Stack Developer</b> at <a rel="noopener noreferrer" target="_blank" href="https://www.devinterface.com/"><b>DevInterface</b></a> where I develop mantain web apps with the following technologies:</p>
+                            <p>I am currently working as <b>Full Stack Developer</b> at <a rel="noopener noreferrer" target="_blank" href="https://www.devinterface.com/"><b>DevInterface</b></a> where I develop and mantain web apps with the following technologies:</p>
                             <li>Framework and solutions: Ruby on Rails (RoR), Node.js, Express, Spree e-commerce, ActiveAdmin, Redis, Elasticsearch</li>
                             <li>Frontend: ReactJS, Vue.js, CSS3, Jquery, Bootstrap, basics of Typescript</li>
                             <li>Database: MySQL, PostgreSQL, MongoDB</li>
