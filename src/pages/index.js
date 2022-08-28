@@ -1,14 +1,14 @@
-import React from "react"
+import React from 'react';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 // Components
-import Header from "../components/Header"
-import Work from "../components/Work"
-import About from "../components/About"
-import Skills from "../components/skills"
+import About from '../components/About';
+import Header from '../components/Header';
+import Skills from '../components/skills';
+import Work from '../components/Work';
 // import Promotion from "../components/Promotion"
-import Footer from "../components/Footer"
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +20,6 @@ const IndexPage = () => (
     {/* <Promotion></Promotion> */}
     <Footer></Footer>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

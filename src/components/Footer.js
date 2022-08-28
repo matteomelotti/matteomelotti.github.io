@@ -1,6 +1,7 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import React from 'react';
+import { Fade } from 'react-awesome-reveal';
+
+import data from '../yourdata';
 
 const Footer = () => {
   return (
@@ -11,7 +12,10 @@ const Footer = () => {
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
+          <a
+            className="email-link"
+            href={`mailto:${data.contactEmail}`}
+          >
             {data.contactEmail}
           </a>
           <div className="social-icons">
@@ -29,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

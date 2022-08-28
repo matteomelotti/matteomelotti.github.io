@@ -1,9 +1,8 @@
-import React from "react"
-import classes from './Experience/Experience.module.css';
-import { MdSchool } from 'react-icons/md';
-import { MdWork } from 'react-icons/md';
+import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import { FaSchool } from 'react-icons/fa';
-import Fade from "react-reveal/Fade"
+import { MdSchool, MdWork } from 'react-icons/md';
+import * as classes from './Experience/Experience.module.css';
 
 const Work = () => {
   return (
@@ -19,55 +18,148 @@ const Work = () => {
                     <div className={classes.timeline_centered}>
                       <Fade bottom>
                         <article className={classes.timeline_entry}>
-                          <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`} >
+                          <div
+                            className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}
+                          >
                             <MdWork />
                           </div>
                           <div className={classes.label}>
-                            <h2 >Experience  <span>December 2016 - Present</span></h2>
-                            <p>I am currently working as <b>Full Stack Developer</b> at <a rel="noopener noreferrer" target="_blank" href="https://www.devinterface.com/"><b>DevInterface</b></a> where I develop mantain web apps with the following technologies:</p>
-                            <li>Framework and solutions: Ruby on Rails (RoR), Node.js, Express, Spree e-commerce, ActiveAdmin, Redis, Elasticsearch</li>
-                            <li>Frontend: ReactJS, Vue.js, CSS3, Jquery, Bootstrap, basics of Typescript</li>
-                            <li>Database: MySQL, PostgreSQL, MongoDB</li>
+                            <h2>
+                              Experience{' '}
+                              <span>December 2016 - Present</span>
+                            </h2>
+                            <p>
+                              I am currently working as{' '}
+                              <b>Full Stack Developer</b> at{' '}
+                              <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://www.devinterface.com/"
+                              >
+                                <b>DevInterface</b>
+                              </a>{' '}
+                              where I develop and mantain web apps
+                              with the following technologies:
+                            </p>
+                            <li>
+                              Framework and solutions: Ruby on Rails
+                              (RoR), Node.js, Express, Spree
+                              e-commerce, ActiveAdmin, Redis,
+                              Elasticsearch
+                            </li>
+                            <li>
+                              Frontend: ReactJS, Vue.js, CSS3, Jquery,
+                              Bootstrap, basics of Typescript
+                            </li>
+                            <li>
+                              Database: MySQL, PostgreSQL, MongoDB
+                            </li>
                             <li>Software versioning: GIT</li>
                           </div>
                         </article>
                       </Fade>
                       <Fade bottom>
                         <article className={classes.timeline_entry}>
-                          <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`} >
+                          <div
+                            className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}
+                          >
                             <MdWork />
                           </div>
                           <div className={classes.label}>
-                            <h2 >Experience  <span>June 2016 - November 2016</span></h2>
-                            <p>I started my developer carreer at <a rel="noopener noreferrer" target="_blank" href="https://www.bluemilkdigital.it/en"><b>BlueMilk</b></a> where I first approached coding challenges and where I:</p>
+                            <h2>
+                              Experience{' '}
+                              <span>June 2016 - November 2016</span>
+                            </h2>
+                            <p>
+                              I started my developer carreer at{' '}
+                              <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://www.bluemilkdigital.it/en"
+                              >
+                                <b>BlueMilk</b>
+                              </a>{' '}
+                              where I first approached coding
+                              challenges and where I:
+                            </p>
                             <li>Developed management software</li>
-                            <li>Developed single-page applications for iOS and Android smartphones and tablets.</li>
-                            <li>Developed landing pages with responsive design</li>
+                            <li>
+                              Developed single-page applications for
+                              iOS and Android smartphones and tablets.
+                            </li>
+                            <li>
+                              Developed landing pages with responsive
+                              design
+                            </li>
                           </div>
                         </article>
                       </Fade>
                       <Fade bottom>
                         <article className={classes.timeline_entry}>
-                          <div className={classes.timeline_icon} >
+                          <div className={classes.timeline_icon}>
                             <MdSchool />
                           </div>
                           <div className={classes.label}>
-                            <h2>University <span>2015</span></h2>
-                            <p>I completed my bachelor degree in Astronomy (Computer Science and Engineering) from <a rel="noopener noreferrer" target='_blank' href='https://www.unipd.it/en/'><b>University of Padua</b></a>.</p>
-                            <p>The core topics were Statistics, Mathematics, Physics, Astrophysics, Astronomy and Quantum Physics</p>
+                            <h2>
+                              University <span>2015</span>
+                            </h2>
+                            <p>
+                              I completed my bachelor degree in
+                              Astronomy (Computer Science and
+                              Engineering) from{' '}
+                              <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://www.unipd.it/en/"
+                              >
+                                <b>University of Padua</b>
+                              </a>
+                              .
+                            </p>
+                            <p>
+                              The core topics were Statistics,
+                              Mathematics, Physics, Astrophysics,
+                              Astronomy and Quantum Physics
+                            </p>
                           </div>
                         </article>
                       </Fade>
                       <Fade bottom>
                         <article className={classes.timeline_entry}>
-                          <div className={`${classes.timeline_icon} ${classes.timeline_icon_2}`} >
+                          <div
+                            className={`${classes.timeline_icon} ${classes.timeline_icon_2}`}
+                          >
                             <FaSchool />
                           </div>
                           <div className={classes.label}>
-                            <h2 >High School  <span>2006</span></h2>
-                            <p>I have completed my higher education in Informatics from <a rel="noopener noreferrer" target='_blank' href="https://www.marconiverona.edu.it/"><b>ITIS G.Marconi</b></a> with major subjects as Programming languages (Java, PHP), SQL and computer network bases.</p>
+                            <h2>
+                              High School <span>2006</span>
+                            </h2>
+                            <p>
+                              I have completed my higher education in
+                              Informatics from{' '}
+                              <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://www.marconiverona.edu.it/"
+                              >
+                                <b>ITIS G.Marconi</b>
+                              </a>{' '}
+                              with major subjects as Programming
+                              languages (Java, PHP), SQL and computer
+                              network bases.
+                            </p>
                           </div>
-                          <div className={classes.timeline_entry_inner}><div className={classes.timeline_icon_3 || classes.color_none}></div></div>
+                          <div
+                            className={classes.timeline_entry_inner}
+                          >
+                            <div
+                              className={
+                                classes.timeline_icon_3 ||
+                                classes.color_none
+                              }
+                            ></div>
+                          </div>
                         </article>
                       </Fade>
                     </div>
@@ -79,7 +171,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

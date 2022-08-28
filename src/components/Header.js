@@ -1,6 +1,7 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import React from 'react';
+import { Fade } from 'react-awesome-reveal';
+
+import data from '../yourdata';
 
 const Header = () => {
   return (
@@ -9,50 +10,51 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              Hi, I'm {data.name}{' '}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
             </h2>
           </Fade>
-          <Fade bottom cascade>
+          <Fade cascade>
             <div className="heading-wrapper">
               <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "Building digital"}
+                  : 'Building digital'}
               </h1>
               <h1>
-                {" "}
+                {' '}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : 'products, brands'}
               </h1>
               <h1>
-                {" "}
+                {' '}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : 'and experience'}
               </h1>
             </div>
           </Fade>
-          <Fade bottom>
+          <Fade cascade>
             <h2>{data.headerParagraph}</h2>
           </Fade>
-          <Fade bottom>
+          <Fade cascade>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "matteo.melotti11@gmail.com"
+                data.contactEmail
+                  ? data.contactEmail
+                  : 'matteo.melotti11@gmail.com'
               }`}
-              className="primary-btn"
             >
-              CONNECT WITH ME
+              <p className="primary-btn">CONNECT WITH ME</p>
             </a>
           </Fade>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
