@@ -1,8 +1,8 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
 import { FaSchool } from 'react-icons/fa';
 import { MdSchool, MdWork } from 'react-icons/md';
-import * as classes from './Experience/Experience.module.css';
+import Fade from 'react-reveal/Fade';
+import classes from './Experience/Experience.module.css';
 
 const Work = () => {
   return (
@@ -38,8 +38,8 @@ const Work = () => {
                               >
                                 <b>DevInterface</b>
                               </a>{' '}
-                              where I develop and mantain web apps
-                              with the following technologies:
+                              where I develop mantain web apps with
+                              the following technologies:
                             </p>
                             <li>
                               Framework and solutions: Ruby on Rails
@@ -149,16 +149,6 @@ const Work = () => {
                               languages (Java, PHP), SQL and computer
                               network bases.
                             </p>
-                          </div>
-                          <div
-                            className={classes.timeline_entry_inner}
-                          >
-                            <div
-                              className={
-                                classes.timeline_icon_3 ||
-                                classes.color_none
-                              }
-                            ></div>
                           </div>
                         </article>
                       </Fade>
