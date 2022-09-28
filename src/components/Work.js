@@ -30,7 +30,7 @@ const Work = () => {
                             </h2>
                             <p>
                               I am currently working as{' '}
-                              <b>Full Stack Developer</b> at{' '}
+                              <b>Web Developer</b> at{' '}
                               <a
                                 rel="noopener noreferrer"
                                 target="_blank"

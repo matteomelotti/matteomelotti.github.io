@@ -12,7 +12,7 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <h3 className="light">
-              Hi, I'm Matteo Melotti, a Full Stack Developer from
+              Hi, I'm Matteo Melotti, a Web Developer from
               Verona&nbsp;
               <span role="img" aria-label="Emoji">
                 🇮🇹
