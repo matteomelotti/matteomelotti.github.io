@@ -10,22 +10,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `
-  );
-
-  const metaDescription =
-    description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
+  const metaDescription = description;
+  const defaultTitle = '';
 
   return (
     <Helmet
@@ -57,7 +43,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: ``,
         },
         {
           name: `twitter:title`,
