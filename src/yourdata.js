@@ -6,7 +6,6 @@ import reactIcon from './images/react.svg';
 // import designIcon from "./images/design.svg"
 import codeIcon from './images/code.svg';
 import elasticsearchIcon from './images/elasticsearch.png';
-import linkedinIcon from './images/linkedin.svg';
 import mysqlIcon from './images/mysql.svg';
 import nodeIcon from './images/node.svg';
 import postgresqlIcon from './images/postgresql.svg';
@@ -18,8 +17,9 @@ import vueIcon from './images/vuejs.svg';
 
 // Social Icon
 import githubIcon from './images/github.svg';
-// import linkedinIcon from "./images/linkedin.svg"
 import instagramIcon from './images/instagram.svg';
+import npmIcon from './images/npm.svg';
+import linkedinIcon from './images/linkedin.svg';
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -39,7 +39,7 @@ export default {
   headerParagraph: 'Web Developer at DevInterface Srl',
 
   //Contact Email
-  contactEmail: 'matteo.melotti11@gmail.com',
+  contactEmail: 'matteo.melotti@proton.me',
 
   // End Header Details -----------------------
 
@@ -231,6 +231,10 @@ export default {
     {
       img: instagramIcon,
       url: 'https://www.instagram.com/matteo__melotti',
+    },
+    {
+      img: npmIcon,
+      url: 'https://npmjs.com/~maaatt',
     },
   ],
 
